@@ -1,0 +1,130 @@
+<?php require_once 'inc/header.php'; ?>
+
+<!-- PAGE -->
+<div class="page">
+	<div class="page-main">
+
+		<!-- Sidebar -->
+		<?php require_once 'inc/sidebar.php'; ?>
+		<!-- /Sidebar -->
+
+		<!-- Top Header Mobile -->
+		<?php require_once 'inc/top-mobile.php'; ?>
+		<!-- /Top Header Mobile  -->
+
+		<div class="app-content">
+			<div class="side-app">
+				<!-- Top Header Full -->
+				<?php $title_view = 'All Orders'; ?>
+				<?php require_once 'inc/top-full.php'; ?>
+				<!-- /Top Header Full -->
+				<!-- ============== START CONTENT ==============  -->
+				<div class="row">
+							<div class="col-md-12">
+								<div class="card">
+									<div class="card-body">
+										<div class="clearfix">
+											<div class="float-left">
+												<h3 class="card-title mb-0">#INV-526</h3>
+											</div>
+											<div class="float-right">
+												<h3 class="card-title">Date: 12-09-2019</h3>
+											</div>
+										</div>
+										<hr>
+										<div class="row">
+                                        <div class="col-lg-6">
+												<p class="h3">Details Clients</p>
+												<address>
+                                                    <strong>Name</strong> : Mohamed Samer<br>
+                                                    <hr>
+                                                    <strong>Phone</strong> : 0084783<br>
+                                                    <hr>
+                                                    <strong>City</strong> : State, City<br>
+                                                    <hr>
+                                                    <strong>Email</strong>: yourdomain@example.com
+                                                </address>
+                                            </div>
+                                            <div class="col-lg-6">
+												<p class="h3">Details Restaurant:</p>
+												<address>
+                                                    <strong>Name Restaurant</strong> : Big Mac<br>
+                                                    <hr>
+                                                    <strong>Name Food</strong> : Burger x2, Pepsi, xxx, xxxx, xxxx<br>
+                                                    <hr>
+                                                    <strong>Price</strong> : $20<br>
+                                                    <hr>
+                                                    <strong>Photos</strong>: <br>
+                                                    <div class="box-imgs">
+                                                            <ul id="lightgallery" class="list-unstyled row">
+                                                                <li class="col-md-2 border-bottom-0" data-responsive="assets/images/media/12.jpg" data-src="assets/images/media/12.jpg" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
+                                                                    <a href="">
+                                                                        <img class="img-responsive mb-0" src="assets/images/media/12.jpg" alt="Thumb-2">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="col-md-2 border-bottom-0" data-responsive="assets/images/media/12.jpg" data-src="assets/images/media/12.jpg" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
+                                                                    <a href="">
+                                                                        <img class="img-responsive mb-0" src="assets/images/media/12.jpg" alt="Thumb-2">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="col-md-2 border-bottom-0" data-responsive="assets/images/media/12.jpg" data-src="assets/images/media/12.jpg" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
+                                                                    <a href="">
+                                                                        <img class="img-responsive mb-0" src="assets/images/media/12.jpg" alt="Thumb-2">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="col-md-2 border-bottom-0" data-responsive="assets/images/media/12.jpg" data-src="assets/images/media/12.jpg" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
+                                                                    <a href="">
+                                                                        <img class="img-responsive mb-0" src="assets/images/media/12.jpg" alt="Thumb-2">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="col-md-2 border-bottom-0" data-responsive="assets/images/media/12.jpg" data-src="assets/images/media/12.jpg" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
+                                                                    <a href="">
+                                                                        <img class="img-responsive mb-0" src="assets/images/media/12.jpg" alt="Thumb-2">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="col-md-2 border-bottom-0" data-responsive="assets/images/media/12.jpg" data-src="assets/images/media/12.jpg" data-sub-html="<h4>Gallery Image 12</h4><p> Many desktop publishing packages and web page editors now use Lorem Ipsum</p>">
+                                                                    <a href="">
+                                                                        <img class="img-responsive mb-0" src="assets/images/media/12.jpg" alt="Thumb-2">
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                    </div>
+                                                </address>
+                                            </div>
+                                            
+										</div>
+										<div class="table-responsive push">
+											<table class="table table-bordered table-hover mb-0 text-nowrap">
+												<tbody><tr class=" ">
+													<th>Name Order</th>
+													<th class="text-center">Description</th>
+													<th class="text-right">Quantity</th>
+												</tr>
+												<tr>
+													<td class="text-center">Johan Setcs</td>
+													<td>
+														<div class="text-muted"><div class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div></div>
+													</td>
+													<td class="text-center">2</td>
+												</tr>
+											</tbody></table>
+										</div>
+									</div>
+									<div class="card-footer text-right">
+										<button type="button" class="btn btn-info mb-1" onclick="javascript:window.print();"><i class="si si-printer"></i> Print</button>
+									</div>
+								</div>
+							</div><!-- COL-END -->
+						</div>
+						<!-- ROW-1 CLOSED -->
+				<!-- ============== END CONTENT ==============  -->
+
+	
+
+	<!-- Copyright -->
+	<?php require_once 'inc/copyright.php'; ?>
+	<!-- /Copyright -->
+</div>
+<!-- Footer -->
+<?php require_once 'inc/footer.php'; ?>
+<!-- /Footer -->
